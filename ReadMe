@@ -1,0 +1,7 @@
+Rapid Data File Assessment Program
+
+When attempting to perform a data quality assessment of a structured data file, size and complexity prevents the use of such tools as Excel. The purpose of RADAFI is to provide a basic set of assessment criteria and a framework that lets a developer establish more complex advanced assesment criteria, which can be applied at the attributes level of the file being assessed.
+
+RADAFI is currently in a proof of concept phase, while I attempt to figure out if there is value to building out additional assessment features. 
+
+-Rich
