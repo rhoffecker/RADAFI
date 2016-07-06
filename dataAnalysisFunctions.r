@@ -16,9 +16,19 @@ assessType <- function(){
 #   }
   return(a1)
 }
-saveCriteria <- function(){
-  readline("Would you like to save this criteria set? (Y/N) <ENTER>  \n")
+
+## Load an assessment criteria file? 
+configLoad <- function(){
+  as.character(readline("Would you like to load an assessment criteria set? (Y/N) \n"))
 }
+
+configFile <- function(){
+  readline("Enter assessment criteria file name and press <ENTER>: \n")
+}
+saveCriteria <- function(){
+  readline("Would you like to save this criteria set? (Y/N) \n")
+}
+
 configCriteria <- function(){
   readline("Enter the analysis criteria name <ENTER>:  \n")
 }
